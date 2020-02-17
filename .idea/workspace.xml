@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d681b5b8-1bcb-4676-93ff-db4765393b67" name="Default Changelist" comment="" />
+    <list default="true" id="d681b5b8-1bcb-4676-93ff-db4765393b67" name="Default Changelist" comment="'Set test class to work with parameterized.parameter to automate testing. Also, got sin function working when function is run with radians'">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TrigonometryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trignometry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Trignometry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trignometry/TestJunit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trignometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trignometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrignometryTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,29 +19,86 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XrlJRHkO4gou9TUtELW9LOcVuK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gitlabssh" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
-  <component name="RunManager">
-    <configuration name="TestJunit.testSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TrigonometryTest">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <module name="Trignometry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trignometry" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestJunit" />
+      <option name="MAIN_CLASS_NAME" value="TrigonometryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometryTest.cosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trignometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrigonometryTest" />
+      <option name="METHOD_NAME" value="cosTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometryTest.sinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trignometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrigonometryTest" />
+      <option name="METHOD_NAME" value="sinTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometryTest.testSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trignometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrigonometryTest" />
       <option name="METHOD_NAME" value="testSetup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -41,12 +107,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestJunit.testSetup" />
+        <item itemvalue="JUnit.TrigonometryTest" />
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="JUnit.TrigonometryTest.sinTest" />
+        <item itemvalue="JUnit.TrigonometryTest.cosTest" />
+        <item itemvalue="JUnit.TrigonometryTest.testSetup" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\abdul\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="C:\Users\abdul\Desktop\Intellij\Ex_Files_Learning_Spring_Boot\Exercise Files\Chapter 1\01_03\01_03_end\Trignometry\gitlabssh" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,33 +127,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581812021688</updated>
-      <workItem from="1581812027256" duration="504000" />
+      <workItem from="1581812027256" duration="2059000" />
+      <workItem from="1581815333769" duration="21750000" />
     </task>
+    <task id="LOCAL-00001" summary="'Created test cases - Version 1.0'">
+      <created>1581903855906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581903855906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'Created test cases - Version 1.0'" />
+    <MESSAGE value="'Set test class to work with parameterized.parameter to automate testing. Also, got sin function working when function is run with radians'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'Set test class to work with parameterized.parameter to automate testing. Also, got sin function working when function is run with radians'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1581812036035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581812036035" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581812527322">
+    <state x="365" y="63" key="#TrignometryTest.sinTest" timestamp="1581912101534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581812527322" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581812527322">
+    <state x="365" y="63" key="#TrignometryTest.sinTest/0.0.1536.824@0.0.1536.824" timestamp="1581912101534" />
+    <state x="365" y="63" key="#TrignometryTest.testSetup" timestamp="1581905605400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581812527322" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581812527322">
+    <state x="365" y="63" key="#TrignometryTest.testSetup/0.0.1536.824@0.0.1536.824" timestamp="1581905605400" />
+    <state x="152" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581905629799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581812527322" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581812527322">
+    <state x="152" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581905629799" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581963441657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581812527322" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1581963441657" />
+    <state x="516" y="268" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581964396174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="268" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1581964396174" />
+    <state x="205" y="7" key="CommitChangelistDialog2" timestamp="1581964178953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="205" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581964178953" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1581813753313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581813753313" />
+    <state width="1493" height="666" key="GridCell.Tab.0.bottom" timestamp="1581964449586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581964449586" />
+    <state width="1493" height="666" key="GridCell.Tab.0.center" timestamp="1581964449586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581964449586" />
+    <state width="1493" height="666" key="GridCell.Tab.0.left" timestamp="1581964449586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581964449586" />
+    <state width="1493" height="666" key="GridCell.Tab.0.right" timestamp="1581964449586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581964449586" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1581813766066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581813766066" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1581903864042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581903864042" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581815340796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581815340796" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581893111621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1581893111621" />
   </component>
 </project>
