@@ -20,7 +20,7 @@ public class Trignometry {
     public static double sin(double radian){
         if(Double.isNaN(radian)) // not a number returns not a number
             return Double.NaN;
-//        radian %= 2* PI;
+        radian %= 2* PI;
         double output = radian; // series starts with itself
         double lastOutput = radian +2; // add some distance between previous put
         double difference;
@@ -60,6 +60,6 @@ public class Trignometry {
     }
 
     public static double toRadians(double degrees){
-        return degrees;
+        return degrees * degree2Radian;
     }
 }

@@ -55,30 +55,33 @@ public class TrigonometryTest {
 
     @Test
     public void sinTest(){
+        System.out.println("Run for " + inputNumber);
         if(isRadian)
             assertEquals(Math.sin(inputNumber), Trignometry.sin(inputNumber), precision);
         else
             assertEquals(Math.sin(Math.toRadians(inputNumber)), Trignometry.sin(Trignometry.toRadians(inputNumber)), precision);
-        System.out.println("Passed for " + inputNumber);
+
     }
 
     @Test
     public void cosTest(){
         fail("Make the cos function");
+        System.out.println("Run for " + inputNumber);
         if(isRadian)
             assertEquals(Math.cos(inputNumber), Trignometry.cos(inputNumber), precision);
         else
             assertEquals(Math.cos(Math.toRadians(inputNumber)), Trignometry.cos(Trignometry.toRadians(inputNumber)), precision);
-        System.out.println("Passed for " + inputNumber);
+
     }
 
     @Test
     public void tanTest(){
         fail("Make the tan function");
+        System.out.println("Run for " + inputNumber);
         if(isRadian)
             assertEquals(Math.tan(inputNumber), Trignometry.tan(inputNumber), precision);
         else
             assertEquals(Math.tan(Math.toRadians(inputNumber)), Trignometry.tan(Trignometry.toRadians(inputNumber)), precision);
-        System.out.println("Passed for " + inputNumber);
+
     }
 }
