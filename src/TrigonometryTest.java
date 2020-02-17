@@ -8,7 +8,7 @@ import java.util.*; // Used to set up test cases in arrays
 
 @RunWith(Parameterized.class)
 public class TrigonometryTest {
-     private static final double precision = 0.0000001; // lower than the precision in the Trigonometry class
+     private static final double precision = 0.00001; // lower than the precision in the Trigonometry class
      private final Double inputNumber;
      private final Boolean isRadian;
     // Set up arguments for test - so, the test case and if it is in degree or in radians
@@ -49,6 +49,26 @@ public class TrigonometryTest {
         // Add in degree test cases using the array
         for(double a: degreeTestCases)
             testCases.add(new Object[] {a, false});
+        double[] invalidCases ={
+                Double.MIN_NORMAL, // Smallest value with 1 in front of binary representation
+                Double.MIN_VALUE, // Smallest Possible VALUE - basically positive 0
+                Double.POSITIVE_INFINITY,
+                Double.NEGATIVE_INFINITY,
+                Double.NaN, // non-existent number
+                // This will result in an answer that is wrong because Java will precision when rounding
+                /* I could use BigDecimal to overcome this but it is a math library and
+                * it would redundant to implement it from scratch
+                 */
+                // Double.MAX_VALUE, // Biggest Possible VALUE as closest value to positive infinity
+        };
+        for(double a: invalidCases) {
+            testCases.add(new Object[]{a, true}); // test as radian
+            testCases.add(new Object[]{a, false}); // test as degree
+            testCases.add(new Object[]{-a, true}); // test as radian in negative version
+            testCases.add(new Object[]{-a, false}); // test as degree in negative version
+            testCases.add(new Object[]{a+1, true}); // test as radian try to break boundary
+            testCases.add(new Object[]{a+1, false}); // test as degree try to break boundary
+        }
         return testCases;
 
     }
@@ -65,7 +85,6 @@ public class TrigonometryTest {
 
     @Test
     public void cosTest(){
-        fail("Make the cos function");
         System.out.println("Run for " + inputNumber);
         if(isRadian)
             assertEquals(Math.cos(inputNumber), Trignometry.cos(inputNumber), precision);
@@ -76,7 +95,6 @@ public class TrigonometryTest {
 
     @Test
     public void tanTest(){
-        fail("Make the tan function");
         System.out.println("Run for " + inputNumber);
         if(isRadian)
             assertEquals(Math.tan(inputNumber), Trignometry.tan(inputNumber), precision);
