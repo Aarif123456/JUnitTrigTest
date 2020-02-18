@@ -8,7 +8,7 @@ import java.util.*; // Used to set up test cases in arrays
 
 @RunWith(Parameterized.class)
 public class TrigonometryTest {
-     private static final double precision = 0.00001; // lower than the precision in the Trigonometry class
+     private static final double precision = 1e-8; // lower than the precision in the Trigonometry class
      private final Double inputNumber;
      private final Boolean isRadian;
     // Set up arguments for test - so, the test case and if it is in degree or in radians
@@ -59,7 +59,7 @@ public class TrigonometryTest {
                 /* I could use BigDecimal to overcome this but it is a math library and
                 * it would redundant to implement it from scratch
                  */
-                // Double.MAX_VALUE, // Biggest Possible VALUE as closest value to positive infinity
+//                 Double.MAX_VALUE, // Biggest Possible VALUE as closest value to positive infinity
         };
         for(double a: invalidCases) {
             testCases.add(new Object[]{a, true}); // test as radian

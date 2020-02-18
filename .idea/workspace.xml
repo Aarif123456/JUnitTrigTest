@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d681b5b8-1bcb-4676-93ff-db4765393b67" name="Default Changelist" comment="'Finished all cos cases except out of bound and started with tan - so maybe version 2.5'">
+    <list default="true" id="d681b5b8-1bcb-4676-93ff-db4765393b67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trignometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trignometry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrigonometryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrigonometryTest.java" afterDir="false" />
@@ -91,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrigonometryTest.testSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrigonometryTest.tanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trignometry" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrigonometryTest" />
-      <option name="METHOD_NAME" value="testSetup" />
+      <option name="METHOD_NAME" value="tanTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,9 +105,9 @@
       <list>
         <item itemvalue="Application.TestRunner" />
         <item itemvalue="JUnit.TrigonometryTest" />
-        <item itemvalue="JUnit.TrigonometryTest.cosTest" />
+        <item itemvalue="JUnit.TrigonometryTest.tanTest" />
         <item itemvalue="JUnit.TrigonometryTest.sinTest" />
-        <item itemvalue="JUnit.TrigonometryTest.testSetup" />
+        <item itemvalue="JUnit.TrigonometryTest.cosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581812021688</updated>
       <workItem from="1581812027256" duration="2059000" />
-      <workItem from="1581815333769" duration="31605000" />
+      <workItem from="1581815333769" duration="45926000" />
     </task>
     <task id="LOCAL-00001" summary="'Created test cases - Version 1.0'">
       <created>1581903855906</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581964961052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="'Finished all cos cases except out of bound and started with tan - so maybe version 2.5'">
+      <created>1581978193478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581978193478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,62 +184,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="152" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581905629799" />
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581973730186">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581986665438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1581973730186" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1581986665438" />
     <state x="516" y="268" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581964396174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="268" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1581964396174" />
-    <state x="162" y="7" key="CommitChangelistDialog2" timestamp="1581978156110">
+    <state x="162" y="7" key="CommitChangelistDialog2" timestamp="1581978193098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="162" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581978156110" />
+    <state x="162" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581978193098" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1581813753313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581813753313" />
-    <state width="1493" height="290" key="GridCell.Tab.0.bottom" timestamp="1581978156126">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1581993178586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581978156126" />
-    <state width="1493" height="290" key="GridCell.Tab.0.center" timestamp="1581978156126">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581993178586" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1581993178586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581978156126" />
-    <state width="1493" height="290" key="GridCell.Tab.0.left" timestamp="1581978156126">
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581993178586" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1581993178586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581978156126" />
-    <state width="1493" height="290" key="GridCell.Tab.0.right" timestamp="1581978156126">
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581993178586" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1581993178586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581978156126" />
-    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1581972241644">
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581993178586" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581990900821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581972241644" />
-    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1581972241644">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581990900821" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581990900821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581972241644" />
-    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1581972241644">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581990900821" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581990900821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581972241644" />
-    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1581972241644">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581990900821" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581990900821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581972241644" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581990900821" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1581813766066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581813766066" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1581964970914">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1581978195822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581964970914" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581978195822" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581815340796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
