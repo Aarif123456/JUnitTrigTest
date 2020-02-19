@@ -29,6 +29,8 @@ public class Trignometry {
     }
 
     private static double getRemainder(double radian) {
+        if(abs(radian)>1E11)
+            throw new ArithmeticException("Cannot guarantee accuracy with numbers above 1E11");
         radian %= 2 * PI;
         if (radian < 0)
             radian += 2 * PI;
@@ -79,10 +81,10 @@ public class Trignometry {
     public static double tan(double radian){
         if(Double.isNaN(radian) || Double.isInfinite(radian)) // not a number returns not a number
             return Double.NaN;
-        double denominator = cos(radian);
         radian = getRemainder(radian);
+        double denominator = cos(radian);
         if (abs(denominator) <= 1e-7)
-            throw new ArithmeticException("Cannot find tan of invalid value");
+            throw new  IllegalArgumentException("Cannot find tan of invalid value");
         double numerator = sin(radian);
         if(abs(numerator)<=precision)
             return 0;
@@ -90,6 +92,8 @@ public class Trignometry {
     }
 
     public static double toRadians(double degrees) {
+        if (abs(degrees)>1E11)
+            throw new ArithmeticException("Number is too big too convert");
         degrees %= 360;
         if (degrees < 0)
             degrees += 360;
