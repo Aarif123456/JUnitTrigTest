@@ -8,7 +8,7 @@ import java.util.*; // Used to set up test cases in arrays
 
 @RunWith(Parameterized.class)
 public class TrigonometryTest {
-     private static final double precision = 1e-8; // lower than the precision in the Trigonometry class
+     private static final double precision = 1e-2; // lower than the precision in the Trigonometry class
      private final Double inputNumber;
      private final Boolean isRadian;
     // Set up arguments for test - so, the test case and if it is in degree or in radians
